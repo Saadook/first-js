@@ -208,6 +208,10 @@ console.log(check);
         console.log(i);
     } 
  
+    var o=[1,2,3,4,5]
+    for (var i =0;i<.length;i++){
+        console.log(i);
+    }
  
  
     var colors = ["red", "green" , "blue" , "yellow"]
@@ -268,10 +272,80 @@ avg([1,4,4])
 
 
 
+function SumArray(array){
+    array[1,2,3,4,5]
+    def SumArray(arr):
+    total=0
+    for number in (arr):
+    total+=number 
+    return total
+}
 
 
 
 
+function countAdult(arr){
+    var acc=0 
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]>=)
+    }
+return(arr[i])
+}
+var students=[
+    {name:'Alice',score:90},
+    {name:'Blob',score:85}
+    {name:'Charlie',score:88}
+];
+
+function AverrageScore(students){
+  var acc=0
+  for(let i=0;i<students.length;i++){
+    acc+=students[i].score;
+  }
+  return acc/students.length
+}
+
+
+
+function MaxNumber(arr){
+    let max =arr[0];
+    for(let i = 1<arr.length;i++){
+        if (arr[i]>max){
+            max = arr[i]
+        }
+    }
+    return max ;
+}
+
+
+function FilterExpensiveProducts(products,minvalue){
+    var products =[{name: 'laptop',price: 1000},
+    {name:'mouse', price: 25},
+    {name:'keyboard',price:75}
+    {name:'monitor',price:300}
+    ];
+    return products.filter(product=>product.price>minvalue);
+}
+
+
+function FilterExpensiveProductss(arr,value){
+    var acc=[]
+    for (let i =0;i<arr.length;i++){
+    if (arr[i].price>value){
+        acc.push(arr[i])
+    }
+    }
+    return acc
+}
+
+
+function TotalPages(book){
+var total = 0;
+for(let i =0;i<book.length;i++){
+    total+=book[i].pages
+}
+return total;
+}
 
 
 
