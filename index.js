@@ -349,6 +349,37 @@ return total;
 
 
 
+function HighestSalary(employees){
+    var acc = employees[0];
+    for (let i =1;i<employees.length;i++){
+        if (employees[i].salary>acc.salary){
+            acc=employees[i]
+        }
+    }
+    return acc
+}
+
+
+function studentWithHighestAverage(students){
+    var maxstudent = 0
+    var maxaverage = (student[0].grades[0]+student[0].grades[1]+student[0].grades[2]+student[0].grades[3])/3
+    for(let i=1 ;i<students.length ;i++ ){
+    var average = (student[i].grades[0]+student[i].grades[1]+student[i].grades[2]+student[0].grades[3])/3
+      }  
+      if(average>maxaverage){
+        maxaverage=average
+        maxstudent=students[i]
+      }
+      return maxstudent[i]
+    }
+   
+
+
+
+
+
+
+
 
 
 
