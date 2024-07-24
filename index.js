@@ -372,6 +372,104 @@ function studentWithHighestAverage(students){
       }
       return maxstudent[i]
     }
+
+
+    function totallnventoryValue(products){
+        var acc=0;
+        for (let product of products){
+            acc +=product.price*product.quantity;
+        }
+        return acc
+    }
+
+
+    function child (score){
+        var total =0
+     for (let ele of calculate){
+        total+=ele
+     }
+     return total
+    }
+    
+
+
+
+
+    function child(athletes){
+        var acc =0
+        for (let ele of athletes){
+            acc+=ele.score*athletes
+        }
+        return acc
+    }
+ function main (athletes){
+    var bestAthletes=athletes[0]
+    var bestScore = child(athletes[0].score)
+    for (let i=0; i<athletes.length;i++){
+        let score = child(athletes[i].score)
+        if (score>bestScore){
+            bestScore=score
+            bestAthletes=athletes[i]
+        }
+    }
+return bestAthletes
+ }
+ main([
+    {name: 'Athlete One', scores: [10, 8, 9]},
+    {name: 'Athlete Two', scores: [9, 9, 10]},
+    {name: 'Athlete Three', scores: [8, 7, 9]}
+])
+function stringDuplicated(arr,str){
+    var acc =0
+    for (let i =0;i<arr.length;i++){
+        if (arr[i]===str){
+            acc++
+            if (acc>1){
+                return true
+
+            }
+        }
+    }
+    return false
+}
+function jlfdhksd(arr){
+    var acc = 0 
+    for (let i=0;i<arr.length;i++){
+    for (let j = i+1;j<arr.length;j++){
+        if(arr[i]=== arr[j]){
+            return true
+        }
+    }    
+
+}
+return false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
    
 
 
