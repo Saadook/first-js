@@ -445,8 +445,34 @@ function jlfdhksd(arr){
 return false
 }
 
+//create a new array and suppose it has as many elements as the given input
+//define an index for this array
+//in the rest of the algorithm let always i be the actual length of ris and the next possible index to use
+//the input list
+//now the first i positions of acc contain the distinct values of input
+ function Names(arr){
+    var obj = new array[]
+    var i = 0
+    for (i=0;Input.length;i++){
+        var addCurrentName = true
+        for(j=0;j<K;j++){
+            if (Input[a]===ris[j])
+        }
+    }
+ }
 
-
+ function wordsCount(arr){
+var obj ={}
+for (let i =0;i<arr.length;i++){
+    if (obj[arr[i]===undefined]){
+        Obj[arr[i]]=1
+    }
+    else{
+        obj[arr[i]]++
+    }
+}
+return obj
+ }
 
 
 
